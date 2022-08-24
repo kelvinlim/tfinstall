@@ -5,7 +5,7 @@
 export DISPLAY=:0
 
 # setup the background
-gsettings set org.gnome.desktop.background picture-uri file:////home/tdcs/tf/maroon_driven_background.png 
+gsettings set org.gnome.desktop.background picture-uri file:////home/tdcs/tfinstall/maroon_driven_background.png 
 # remove the show applications button from the doc
 gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button false
 
