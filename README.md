@@ -4,6 +4,14 @@ Code to do install of taskflow desktop client.
 
 This taskflow desktop client uses a snap container served from snapcraft.
 
+## Step 0 - Erase Windows10 from the disk
+
+Sometimes I have been unable to install ubuntu over an existing Windows10 installation.
+The solution I found was to erase the disk holding Windows10 using a usb linux boot disk with nwipe.
+See (https://github.com/PartialVolume/shredos.x86_64 ).
+
+Boot the laptop, using the boot menu to select the usb linux boot drive with nwipe installed.
+
 ## Step 1 - Install ubuntu desktop 20.04 LTS
 
 Do a minimal install using the defaults for the filesystem.  
