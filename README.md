@@ -14,6 +14,8 @@ Boot the laptop, using the boot menu to select the usb linux boot drive with nwi
 
 ## Step 1 - Install ubuntu desktop 20.04 LTS
 
+Add the local wifi access.
+
 Do a minimal install using the defaults for the filesystem.  
 Select Erase disk on installation.
 
@@ -46,3 +48,9 @@ sudo bash tfinstall.sh
 # setup the desktop
 bash update_desktop.sh
 ```
+## Step 3
+These are some customizations of the interface.
+
+1. Screen Lock - in Settings, turn off the screenlock for the tdcs user
+
+2. Software upgrade - in the Software and Upgrade application, use this to turn off the updates except for security and also turn off the LTS upgrades.
